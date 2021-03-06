@@ -1,0 +1,40 @@
+v1 = [10, 2, 20, 5, 7]
+v2 = [2, 7, 30, 11, 9]
+v3 = [6, 2, 9, -5, 11]
+v4 = [6, 10, 15, 1, -2]
+v5 = [9, 5, 7, 6, 5]
+v6 = [0, 2, 8, -6, 18]
+a = []
+b = []
+c = []
+
+for i in range(len(v1)):
+    vector1 = v1[i] * v2[i]
+    a.append(vector1)
+
+
+print('Given vectors: v1 = ', v1, 'v2 = ', v2)
+print('Inner Product of two vectors: (v1 * v2)')
+print('(v1 * v2) = ', a)
+print('The sum of (v1 * v2) :', sum(a))
+print(' '*64)
+
+for i in range(len(v3)):
+    vector2 = v3[i] * v4[i]
+    b.append(vector2)
+
+print('Given vectors: v3 = ', v3, 'v4 = ', v4)
+print('Inner Product of two vectors: (v3 * v4)')
+print('(v3 * v4) = ', b)
+print('The sum of (v3 * v4) :', sum(b))
+print(' '*64)
+
+for i in range(len(v5)):
+    vector3 = v5[i] * v6[i]
+    c.append(vector3)
+
+print('Given vectors: v5 = ', v5, 'v6 = ', v6)
+print('Inner Product of two vectors: (v5 * v6)')
+print('(v5 * v6) = ', c)
+print('The sum of (v5 * v6) :', sum(c))
+print('_ '*64)
